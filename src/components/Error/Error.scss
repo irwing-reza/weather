@@ -1,0 +1,15 @@
+.Error {
+  display: block;
+  width: 100%;
+  z-index: 100;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  text-align: center;
+  background-color: #ee9797;
+  margin-bottom: 0.5rem;
+}
+
+.Error-message {
+  padding: 15px 5px;
+  font-weight: bold;
+}

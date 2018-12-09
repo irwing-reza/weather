@@ -1,0 +1,39 @@
+.ForecastList {
+  max-width: 90%;
+  margin: 1em auto 0;
+}
+
+.ForecastList-title {
+  text-align: center;
+}
+
+.ForecastList-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ForecastList-day {
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 750px) {
+  .ForecastList .Forecast {
+    border: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .ForecastList {
+    overflow: hidden;
+
+    .Forecast {
+      width: 200px;
+    }
+  }
+
+  .ForecastList-content {
+    flex-wrap: nowrap;
+  }
+}

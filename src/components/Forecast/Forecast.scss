@@ -1,0 +1,16 @@
+.Forecast {
+  width: 100%;
+  float: left;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  &:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+  }
+}
+
+.Forecast-description {
+  font-size: 0.8rem;
+  text-align: center;
+  display: block;
+}
