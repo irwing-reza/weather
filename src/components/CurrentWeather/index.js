@@ -25,9 +25,9 @@ class CurrentWeather extends React.PureComponent {
         <h1>
           {this.props.city.toUpperCase()}, {this.props.country}
         </h1>
-        <h1 className="CurrentWeather-date">
+        <h2 className="CurrentWeather-date">
           {`${utils.getFullDay(this.props.date)} ${this.getTime()}`}
-        </h1>
+        </h2>
         <h2 className="CurrentWeather-temperature">
           {utils.converTemperature(this.props.temperature)}º
         </h2>
